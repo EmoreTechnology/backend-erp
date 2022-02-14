@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produtos",
+  "info": {
+    "singularName": "produto",
+    "pluralName": "produtos",
+    "displayName": "produto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productTitle": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": false
+    },
+    "price": {
+      "pluginOptions": {},
+      "type": "decimal",
+      "required": false
+    },
+    "quantity": {
+      "pluginOptions": {},
+      "type": "integer",
+      "required": false
+    }
+  }
+}
