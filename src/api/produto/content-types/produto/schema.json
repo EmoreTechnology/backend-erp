@@ -17,11 +17,6 @@
       "type": "string",
       "required": false
     },
-    "description": {
-      "pluginOptions": {},
-      "type": "string",
-      "required": false
-    },
     "price": {
       "pluginOptions": {},
       "type": "decimal",
@@ -31,6 +26,21 @@
       "pluginOptions": {},
       "type": "integer",
       "required": false
+    },
+    "valueSale": {
+      "type": "decimal"
+    },
+    "minValueStock": {
+      "type": "decimal"
+    },
+    "registerDate": {
+      "type": "datetime"
+    },
+    "shelfLife": {
+      "type": "datetime"
+    },
+    "providerName": {
+      "type": "string"
     }
   }
 }
